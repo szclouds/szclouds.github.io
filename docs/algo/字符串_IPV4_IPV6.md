@@ -1,6 +1,9 @@
 ---
-layout: default
 title: 字符串_IPV4_IPV6
+layout: default
+nav_order: 2
+tags: algo
+permalink: /str_IPV4_IPV6
 parent: algo
 ---
 
