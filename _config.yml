@@ -1,6 +1,9 @@
 title: clouds-blog
 description: clouds-blog
 theme: just-the-docs
+favicon_ico: "/assets/images/favicon.ico"
+footer_content: "Copyright &copy; 2023 clouds"
+
 
 url: https://szclouds.github.io/
 
