@@ -29,13 +29,13 @@ permalink: /docs/gost
 
 2. 使用 cloudflare 代理域名，根据提示选择免费代理即可，设置完成后需返回域名服务提供商处修改对于的 DNS 解析地址，使得域名能够正确解析到 cloudflare 上，设置完成后需要等待一段时间，5分钟左右生效，域名代理成功后 cloudflare 对应有提示。
 
-    ![image-20230318150547801](/assets/images/cloudflare_success.png)
+    ![image-20230318150547801](../assets/images/cloudflare_success.png)
 
 3. 购买 VPS
 
 4. 在 cloudflare 中创建 A 记录，填写名称和 IP，其中 IP 为 VPS IP 地址，此时代理状态设置为仅代理 DNS
 
-    ![image-20230318151058076](/assets/images/cloudflare_dns.png)
+    ![image-20230318151058076](../assets/images/cloudflare_dns.png)
 
 5. 验证 cloudflare 是否成功将域名与 VPS 绑定，`ping domain` 如 IP 为 VPS IP 则说明代理成功
 
@@ -126,7 +126,7 @@ permalink: /docs/gost
 
 10. Chrome 浏览器配置，使用 Chrome 插件 [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) ，可通过新建不同情景模式配置规则达到非全局转发目的。
 
-    ![image-20230318152425472](/assets/images/switchOmega.png)
+    ![image-20230318152425472](../assets/images/switchOmega.png)
 
 11. 在 Chrome 页面中选择不同的 SwitchyOmega 模式即可
 

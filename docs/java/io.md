@@ -7,7 +7,7 @@ parent: Java
 ---
 # I/O
 
-![image-20230318164307451](/assets/images/java_io_xmind.png)
+![image-20230318164307451](../../assets/images/java_io_xmind.png)
 
 1. 输入输出字节流（InputStream、OutStream）、字符流（Writer、Reader），分别处理字节和字符
 
@@ -39,7 +39,7 @@ parent: Java
 
    - ObjectOutputStream 将对象写入输出流中，序列化
 
-4. 字符流，便于对字符、音频、图片等媒体文件操作，乱码问题，字符流默认采用的是 `Unicode` 编码，我们可以通过构造方法自定义编码。顺便分享一下之前遇到的笔试题：常用字符编码所占字节数？`utf8`:英文占 1 字节，中文占 3 字节，`unicode`：任何字符都占 2 个字节，`gbk`：英文占 1 字节，中文占 2 字节
+4. 字符流，便于对字符、音频、图片等媒体文件操作，乱码问题，字符流默认采用的是 `Unicode` 编码，我们可以通过构造方法自定义编码
 
 5. Reader 字符输入流
 
